@@ -34,7 +34,7 @@ OR add it into your `composer.json`:
 }
 ```
 
-DustPress supports Composer's autoload feature. If you have it enabled, you don't have to do anything else to use DustPress. If not, you need to require `dustpress.php` in your `functions.php`.
+DustPress supports Composer's autoload feature. If you have it enabled, you don't have to do anything else to use DustPress. If not, you need to require `dustpress.php` in your `functions.php` and you need also require `helper.php`, before `dustpress.php`.
 
 ### Manually
 
