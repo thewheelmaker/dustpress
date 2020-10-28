@@ -38,7 +38,7 @@ DustPress supports Composer's autoload feature. If you have it enabled, you don'
 
 ### Manually
 
-- Clone this repository somewhere in your project and require the `dustpress.php` file in your `functions.php`.
+- Clone this repository somewhere in your project and require the `dustpress.php` file in your `functions.php` then require also the `helper.php` least once before the `dustpress.php`. The `helper.php` is located in a classes folder.
 
 ## External resources
 
